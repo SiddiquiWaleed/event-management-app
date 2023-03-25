@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', 'Lato', sans-serif;
   color: #414141;
-  background-color: #e4f1f1;
+  background-color: #dedede;
 } 
 
 h1,
@@ -30,4 +30,42 @@ ul {
 .center {
   margin: auto;
   text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-out;
+  padding: 50px;
+  margin: 10px;
+
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.events-holder {
+  display: flex;
+  justify-content: flex-start;
+}
+.feature-btn {
+  border: none;
+  background-color: #3cba87;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+  margin-top: 20px;
+}
+.feature-btn:hover {
+  background-color: #2d9e6e;
 }
