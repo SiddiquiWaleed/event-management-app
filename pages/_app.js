@@ -1,9 +1,12 @@
 import '../styles/globals.css';
-import FeaturedProvider from "../components/FeaturedProvider";
+import Navbar from '../components/UI/Navbar';
 
 function MyApp({ Component, pageProps }) {
   return (
-  		<Component {...pageProps} />
+  		<div>
+  			<Navbar />
+  			<Component {...pageProps} />
+  		</div>
   )
 }
 

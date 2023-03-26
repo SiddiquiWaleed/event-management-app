@@ -56,6 +56,8 @@ ul {
 }
 .feature-btn {
   border: none;
+  display: block;
+  width: 115px;
   background-color: #3cba87;
   color: #fff;
   font-size: 14px;
@@ -68,4 +70,30 @@ ul {
 }
 .feature-btn:hover {
   background-color: #2d9e6e;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A54FFF;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
